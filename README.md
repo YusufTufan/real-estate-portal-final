@@ -1,25 +1,61 @@
-# Emlak Portalı
-Bu proje, ASP.NET ve Angular kullanılarak geliştirilmiş bir emlak portalıdır. Bu portal, kullanıcıların gayrimenkul listelerini görüntülemelerine, aramalarına, detaylarına bakmalarına ve ilan veren kişilerle iletişime geçmelerine olanak tanır.
+# 🏠 Real Estate Portal – Final Version
 
-## Gereksinimler
-- Node.js
-- Angular CLI
-- .NET Core SDK
-- Visual Studio Code
+This is the final version of the real estate listing portal, built with **Angular** and **Firebase**. It provides full CRUD functionality, image uploads, search/filter, and an admin panel for managing listings.
 
-## Kurulum
-1. Proje dosyalarını bilgisayarınıza indirin veya klonlayın.
-2. `ClientApp` klasörüne gidin ve `npm install` komutunu çalıştırarak Angular bağımlılıklarını yükleyin.
-3. Visual Studio Code'u açın ve proje klasörünü açın.
-4. .NET Core ile uyumlu bir eklenti yükleyin (örneğin, C# eklentisi).
-5. Visual Studio Code'un terminalinde `dotnet ef database update` komutunu çalıştırarak veritabanını oluşturun.
-6. Terminalde proje ana dizinine gidin ve `dotnet run` komutunu çalıştırarak sunucuyu başlatın.
+---
 
-## Kullanım
-- Tarayıcınızda `http://localhost:5000` adresine giderek emlak portalını görüntüleyebilirsiniz.
-- Portalda gezinebilir, emlak listelerini arayabilir, detaylarına bakabilir ve ilan veren kişilerle iletişime geçebilirsiniz.
-- İlan vermek için kayıt olmanız ve giriş yapmanız gerekmektedir.
+## 🔍 Features
 
-## Katkıda Bulunma
-- Projeye katkıda bulunmak için bir çekme isteği (pull request) açabilirsiniz.
-- Herhangi bir sorun veya öneriniz varsa lütfen bir sorun (issue) açın.
+- 🧑‍💻 User Authentication (Email/Password, Google)
+- 🏘️ Listings CRUD with **Cloud Firestore**
+- 📸 Image Upload via **Firebase Storage**
+- 🔍 Search & Filter: by city, price, type
+- 🌐 Admin Panel: Approve, edit, delete listings
+- ⚙️ Built with Angular + Firebase (AngularFire)
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/YusufTufan/real-estate-portal-final.git
+cd real-estate-portal-final
+npm install
+ng add @angular/fire
+ng serve
+```
+
+---
+
+# 🏠 Emlak Portalı – Son Sürüm
+
+Bu, **Angular** ve **Firebase** ile oluşturulmuş emlak ilan portalının final versiyonudur. Tam CRUD, görsel yükleme, arama/filtreleme ve admin paneli özelliklerini içerir.
+
+---
+
+## 🔍 Özellikler
+
+- 🧑‍💻 Kullanıcı Girişi (E‑posta/Şifre, Google)
+- 🏘️ Firebase Cloud Firestore ile ilan yönetimi (CRUD)
+- 📸 Firebase Storage üzerinden resim yükleme
+- 🔍 Şehir, fiyat, tür filtreleme
+- 🌐 Admin Panel: ilan onay/edit/sil
+- ⚙️ Angular + Firebase (AngularFire) teknolojisiyle geliştirilmiştir
+
+---
+
+## 🚀 Kurulum
+
+```bash
+git clone https://github.com/YusufTufan/real-estate-portal-final.git
+cd real-estate-portal-final
+npm install
+ng add @angular/fire
+ng serve
+```
+
+---
+
+## 👨‍💻 Developer / Geliştirici
+
+**Yusuf Tufan**  
